@@ -57,7 +57,7 @@ class GeekInfoMod(loader.Module):
             {"text": "🤵‍♀️", "url": "https://t.me/shoei1944"},
             lambda: self.strings("_custom_button_doc"),
             "photo_url",
-            "https://i.imgur.com/6FKsFcM.png",
+            "https://i.imgur.com/5ZaBeWI.jpg",
             lambda: self.strings("_photo_url_doc"),
         )
 
