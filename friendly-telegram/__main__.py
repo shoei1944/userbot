@@ -22,22 +22,6 @@ import sys
 import getpass
 import os
 
-if (
-    getpass.getuser() == "root"
-    and "--root" not in " ".join(sys.argv)
-    and "OKTETO" not in os.environ
-):
-    print("!" * 30)
-    print("NEVER EVER RUN USERBOT FROM ROOT")
-    print("THIS IS THE THREAD FOR NOT ONLY YOUR DATA, ")
-    print("BUT ALSO FOR YOUR DEVICE ITSELF!")
-    print("!" * 30)
-    print()
-    print("TYPE force_insecure TO IGNORE THIS WARNING")
-    print("TYPE ANYTHING ELSE TO EXIT:")
-    if input("> ").lower() != "force_insecure":
-        sys.exit(1)
-
 if sys.version_info < (3, 8, 0):
     print("Error: you must use at least Python version 3.8.0")  # pragma: no cover
 elif __package__ != "friendly-telegram":  # In case they did python __main__.py
