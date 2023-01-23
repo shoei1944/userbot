@@ -30,10 +30,10 @@ class GeekInfoMod(loader.Module):
         "_custom_button_doc": "Custom buttons.",
         "_photo_url_doc": "You can set your own photo to geek info.",
         "default_message": (
-            "<b> shUserbot </b>\n\n"
-            "<b> Владелец:</b> {owner}\n"
-            "<b> Версия:</b> <i>{version}</i>\n"
-            "<b> Хостинг: </b><i>host</i>"
+            "<b> ℹ️shUserbot </b>\n\n"
+            "<b> ✏️Владелец:</b> {owner}\n"
+            "<b> 📕Версия:</b> <i>{version}</i>\n"
+            "<b> ♨️Хостинг: </b><i>host</i>\n"
         ),
     }
 
@@ -54,7 +54,7 @@ class GeekInfoMod(loader.Module):
             False,
             lambda: self.strings("_custom_msg_doc"),
             "custom_buttons",
-            {"text": "🤵‍♀️ Support chat", "url": "https://t.me/GeekTGChat"},
+            {"text": "🤵‍♀️", "url": "https://t.me/shoei1944"},
             lambda: self.strings("_custom_button_doc"),
             "photo_url",
             "https://i.imgur.com/6FKsFcM.png",
