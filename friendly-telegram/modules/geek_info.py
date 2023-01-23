@@ -30,12 +30,10 @@ class GeekInfoMod(loader.Module):
         "_custom_button_doc": "Custom buttons.",
         "_photo_url_doc": "You can set your own photo to geek info.",
         "default_message": (
-            "<b>🕶 GeekTG Userbot</b>\n\n"
-            "<b>🤴 Owner:</b> {owner}\n"
-            "<b>🔮 Version:</b> <i>{version}</i>\n"
-            "<b>🧱 Build:</b> {build}\n"
-            "<b>{upd}</b>\n\n"
-            "<b>{platform}</b>"
+            "<b> shUserbot </b>\n\n"
+            "<b> Владелец:</b> {owner}\n"
+            "<b> Версия:</b> <i>{version}</i>\n"
+            "<b> Хостинг: </b><i>host</i>"
         ),
     }
 
